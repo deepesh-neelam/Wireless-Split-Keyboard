@@ -1,0 +1,155 @@
+** Drc report for Keyboard(mech split).kicad_pcb **
+** Created on 2026-03-19T01:07:05+0400 **
+
+** Found 44 DRC violations **
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(118.1110 mm, 29.7950 mm): Segment on Edge.Cuts
+    @(140.3080 mm, 31.8050 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(206.6640 mm, 31.8120 mm): Segment on Edge.Cuts
+    @(228.8620 mm, 31.8120 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(178.7630 mm, 38.0330 mm): Segment on Edge.Cuts
+    @(178.7630 mm, 31.8510 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(304.8550 mm, 29.1500 mm): Segment on Edge.Cuts
+    @(304.8550 mm, 32.6690 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(252.6190 mm, 26.7480 mm): Segment on Edge.Cuts
+    @(280.9990 mm, 26.7480 mm): Segment on Edge.Cuts
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(170.4740 mm, 86.5610 mm): NPTH pad of H2
+    @(170.4740 mm, 86.5610 mm): NPTH pad of H2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(170.4740 mm, 81.5610 mm): NPTH pad of H2
+    @(170.4740 mm, 81.5610 mm): NPTH pad of H2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(170.4610 mm, 103.2980 mm): NPTH pad of H3
+    @(170.4610 mm, 103.2980 mm): NPTH pad of H3
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(170.4610 mm, 98.2980 mm): NPTH pad of H3
+    @(170.4610 mm, 98.2980 mm): NPTH pad of H3
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(170.5000 mm, 49.4520 mm): NPTH pad of H1
+    @(170.5000 mm, 49.4520 mm): NPTH pad of H1
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(170.5000 mm, 54.4520 mm): NPTH pad of H1
+    @(170.5000 mm, 54.4520 mm): NPTH pad of H1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7823 mm)
+    Rule: board setup constraints silk text height; warning
+    @(193.7595 mm, 51.8202 mm): Reference field of U2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7823 mm)
+    Rule: board setup constraints silk text height; warning
+    @(153.8695 mm, 53.5793 mm): Reference field of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(178.4740 mm, 84.0610 mm): Arc of H2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.4740 mm, 84.0610 mm): Arc of H2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(178.4610 mm, 100.7980 mm): Arc of H3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.4610 mm, 100.7980 mm): Arc of H3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(184.9290 mm, 61.1450 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(186.8340 mm, 63.0500 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(202.7090 mm, 61.1450 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(186.8340 mm, 43.9960 mm): Arc of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(186.8340 mm, 61.1450 mm): Arc of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(200.8039 mm, 44.0001 mm): Arc of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(200.8040 mm, 61.1450 mm): Arc of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(203.8450 mm, 73.0300 mm): Reference field of R4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(314.0730 mm, 101.4490 mm): Reference field of SW25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.5000 mm, 51.9520 mm): Arc of H1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(178.5000 mm, 51.9520 mm): Arc of H1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(106.6670 mm, 103.5640 mm): Reference field of SW16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(148.4150 mm, 71.1305 mm): Reference field of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(32.7770 mm, 82.3420 mm): Reference field of SW3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.7780 mm, 67.1730 mm): Reference field of SW18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(182.0310 mm, 107.1070 mm): Reference field of H8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.3415 mm, 61.2278 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2465 mm, 63.1328 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(162.1215 mm, 61.2278 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2465 mm, 44.0788 mm): Arc of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2465 mm, 61.2278 mm): Arc of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.2165 mm, 44.0829 mm): Arc of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.2165 mm, 61.2278 mm): Arc of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.4510 mm, 48.2790 mm): Reference field of SW17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(164.6300 mm, 36.3820 mm): Reference field of H4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(203.6179 mm, 72.4650 mm): Segment of R3 on F.Silkscreen
+    @(203.8450 mm, 73.0300 mm): Reference field of R4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(148.1879 mm, 70.5655 mm): Segment of R1 on F.Silkscreen
+    @(148.4150 mm, 71.1305 mm): Reference field of R2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
